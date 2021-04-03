@@ -5,6 +5,11 @@
     background-color: #c0c0c0;
 }
 
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .banner{
     background-color: dimgray;
     padding: 5px;
@@ -21,13 +26,33 @@
 
 .option-item{
     background-color: dimgray;
-
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 
 .option{
     list-style: none;
     justify-content: space-between;
     display: flex;
-    margin-right: 10px;
+    margin-right: 1%;
+    margin-left: 0%;
     background-color: dimgray;
+}
+
+.field{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: auto;
+    text-align: center;
+    
+}
+
+.down-banner{
+    background-color: dimgray;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    bottom: 0%;
+
 }
