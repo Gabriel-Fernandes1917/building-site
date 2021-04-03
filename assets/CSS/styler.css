@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font: auto;
+    box-sizing: border-box;
+    background-color: #c0c0c0;
+}
+
+.banner{
+    background-color: dimgray;
+    padding: 5px;
+}
+
+.logo{
+    margin-left: 2%;
+    background-color: dimgray;
+}
+
+.nav{
+    background-color: dimgray;
+}
+
+.option-item{
+    background-color: dimgray;
+
+}
+
+.option{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 10px;
+    background-color: dimgray;
+}
