@@ -26,12 +26,20 @@ p{
 
 .nav{
     background-color: dimgray;
+    
 }
 
 .option-item{
     background-color: dimgray;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+    
+}
+
+.option-item:hover{
+    background-color: ghostwhite;
+    
+
 }
 
 .option{
