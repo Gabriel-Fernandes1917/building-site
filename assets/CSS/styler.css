@@ -75,9 +75,14 @@ p{
     
 }
 
+.title{
+    text-align: center;
+
+}
+
 .paragraph{
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 20px;
