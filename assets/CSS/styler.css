@@ -99,10 +99,13 @@ p{
     background-color: #F5F5F5;
     margin-top: 70px;
     
+    max-width: 250px;
+    max-height: 100px;
 }
 
 .info-coloon{
     background-color: #F5F5F5;
+    
 }
 
 .info-img{
