@@ -86,6 +86,7 @@ p{
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 20px;
+    
 }
 
 .my-self{
@@ -93,6 +94,31 @@ p{
     max-height: 50%;
     margin-bottom: 400px;
 }
+
+.info{
+    background-color: #F5F5F5;
+    margin-top: 70px;
+    
+}
+
+.info-coloon{
+    background-color: #F5F5F5;
+}
+
+.info-img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.info-title{
+    background-color: #F5F5F5;
+}
+
+.info-txt{
+    background-color: #F5F5F5;
+}
+
+
 .down-banner{
     background-color: dimgray;
     width: 100%;
