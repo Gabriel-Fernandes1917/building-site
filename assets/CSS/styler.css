@@ -96,11 +96,14 @@ p{
 }
 
 .info{
+    padding: 3px;
     background-color: #F5F5F5;
     margin-top: 70px;
-    
-    max-width: 250px;
-    max-height: 100px;
+    display: inline-table;
+    justify-content: space-between;
+    width: 250px;
+    height: 200px;
+    margin-left: 30px;
 }
 
 .info-coloon{
@@ -109,8 +112,9 @@ p{
 }
 
 .info-img{
-    max-width: 50px;
-    max-height: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #F5F5F5;
 }
 
 .info-title{
@@ -125,14 +129,14 @@ p{
 .down-banner{
     background-color: dimgray;
     width: 100%;
-    position: fixed;
+    position: relative;
     padding: 20px;
     bottom: 0px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
 
 }
-
 .down-banner>a{
     background-color: dimgray;
     
@@ -141,4 +145,11 @@ p{
 .down-banner>img{
     height: 20px;
     width: 20px;
+}
+
+@media(max-width: 480px){
+
+   . 
+
+
 }
