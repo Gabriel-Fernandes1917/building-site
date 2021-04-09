@@ -95,7 +95,7 @@ p{
     margin-bottom: 400px;
 }
 
-.info{
+.infoTools{
     padding: 3px;
     background-color: #F5F5F5;
     margin-top: 70px;
@@ -106,25 +106,37 @@ p{
     margin-left: 30px;
 }
 
-.info-coloon{
+.infoTools-coloon{
     background-color: #F5F5F5;
     
 }
 
-.info-img{
+.infoTools-img{
     width: 50px;
     height: 50px;
     background-color: #F5F5F5;
 }
 
-.info-title{
+.infoTools-title{
     background-color: #F5F5F5;
 }
 
-.info-txt{
+.infoTools-txt{
     background-color: #F5F5F5;
 }
 
+/*  VIDEO */
+.infoClass{
+    display: inline-table;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-left: 30px;
+}
+
+.infoClass-tub{
+    width: 400px;
+    height: 300px;
+}
 
 .down-banner{
     background-color: dimgray;
@@ -149,7 +161,12 @@ p{
 
 @media(max-width: 480px){
 
-   . 
+    .infoTools{
+        
+        display: flex;
+        justify-content: space-between;
+       
+    }
 
 
 }
