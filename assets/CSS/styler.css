@@ -137,6 +137,41 @@ p{
     width: 400px;
     height: 300px;
 }
+/*calculator body */
+
+.cal-body{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 300px;
+    margin-left: 20%;
+}
+
+#output-cal{
+    background-color: white;
+    
+    border-color: black;
+}
+
+.input-cal{
+    background-color: white;
+    max-width: 60px;
+}
+
+.button-cal{
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.button-cal:hover{
+    cursor: pointer;
+    
+}
 
 .down-banner{
     background-color: dimgray;
