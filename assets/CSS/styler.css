@@ -148,15 +148,36 @@ p{
     margin-left: 20%;
 }
 
-#output-cal{
+.space-for-value{
+    background-color: white;
+    align-items: inherit;
+    display: flex;
+}
+
+.div-output-cal{
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-color: black;
+    width: 60px;
+    border-style: solid;
     background-color: white;
     
+    
+}
+
+#output-cal{
+    background-color: white;
     border-color: black;
+    width: 60px;
 }
 
 .input-cal{
     background-color: white;
     max-width: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
 .button-cal{

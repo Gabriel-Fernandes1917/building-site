@@ -42,25 +42,30 @@
     </header>
     <main class="main">
        <section class="cal-body">
-            <input type="text" class="input-cal" id="input-cal1">
-            <input type="text" class="input-cal" id="input-cal2">
-            <output id="output-cal">
-                a
-            </output>
-            <br>
-            <button class="button-cal" onclick="add()">
-                +
-            </button>
-            <button class="button-cal">
-                -
-            </button>
-            <br>
-            <button class="button-cal">
-                /
-            </button>
-            <button class="button-cal">
-                *
-            </button>
+           <div class="space-for-value">
+                <input type="text" class="input-cal" id="input-cal1">
+                <input type="text" class="input-cal" id="input-cal2">
+                <div class="div-output-cal"> 
+                    <output id="output-cal">
+                        a
+                    </output>
+                </div>
+            </div>
+                <br>
+                <button class="button-cal" onclick="add()">
+                    +
+                </button>
+                <button class="button-cal" onclick="sub()">
+                    -
+                </button>
+                <br>
+                <button class="button-cal" onclick="div()">
+                    /
+                </button>
+                <button class="button-cal" onclick="mul()">
+                    *
+                </button>
+            
        </section>
     </main>
     <footer class="down-banner"> 
