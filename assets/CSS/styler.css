@@ -20,6 +20,9 @@ p{
     background-color: dimgray;
     padding: 5px;
 }
+.logo-title{
+    color: red;
+}
 
 .logo{
     margin-left: 2%;
@@ -145,7 +148,6 @@ p{
     margin-bottom: 35%;
     width: 250px;
     height: 200px;
-    margin-left: 20%;
 }
 
 .space-for-value{
@@ -217,12 +219,19 @@ p{
 
 @media(max-width: 480px){
 
+
     .infoTools{
         
         display: flex;
         justify-content: space-between;
        
     }
+
+    .logo{
+        font-size: 20px;
+        
+    }
+    
 
 
 }
