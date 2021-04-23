@@ -5,6 +5,16 @@
     background-color: #c0c0c0;
 }
 
+img{
+    margin: 10px;
+    /*margin-left: 40%;*/
+
+}
+
+strong{
+    background-color: white;
+}
+
 a{
     list-style: none;
     text-decoration: none;
@@ -14,6 +24,7 @@ a{
 p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .banner{
@@ -129,6 +140,17 @@ p{
 }
 /* Articles */
 
+.topic{
+    background-color: white;
+    margin-bottom: 20px; 
+ }
+ 
+
+.topic>h1{
+   background-color: white;
+   margin-left: 20px; 
+}
+
 .Article>a{
     background-color: #F5F5F5;
 
@@ -151,7 +173,7 @@ p{
     
 }
 
-/*physical*/
+
 
 .field-Articles{
     background-color: white;
@@ -160,30 +182,38 @@ p{
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 30px;
+    padding: 10px;
 }
 
-.physical{
+.ImgArticle{
+    margin-left: 40%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.class-articles{
     
     background-color: white;
     
 }
 
-.physical>h1, p, h2{
+.class-articles>h1, p, h2{
     background-color: white;
     margin-left: 20px;
     
     
 }
 
-.physical>h2{
-
+.class-articles>h2{
+    
     display: inline;
 
 }
 
-.physical>p{
+.class-articles>p{
 
     display: inline;
+    margin-bottom: 20px;
     
 }
 
@@ -278,6 +308,7 @@ p{
 .down-banner>img{
     height: 20px;
     width: 20px;
+    background-color: dimgray;
 }
 
 @media(max-width: 480px){
