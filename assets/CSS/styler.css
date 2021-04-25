@@ -5,11 +5,6 @@
     background-color: #c0c0c0;
 }
 
-img{
-    margin: 10px;
-    /*margin-left: 40%;*/
-
-}
 
 strong{
     background-color: white;
@@ -24,6 +19,7 @@ a{
 p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
@@ -95,6 +91,16 @@ p{
 
 }
 
+.Title-options{
+    background-color: white;
+}
+
+.descripition-page>{
+    background-color: #c0c0c0;
+    
+
+}
+
 .paragraph{
     font-size: 20px;
     text-align: center;
@@ -105,9 +111,9 @@ p{
 }
 
 .my-self{
-    max-width: 50%;
-    max-height: 50%;
+    
     margin-bottom: 400px;
+    
 }
 
 .infoTools{
@@ -152,25 +158,32 @@ p{
    margin-left: 20px; 
 }
 
+.topic>p{
+    background-color: white;
+}
+
 .Article>a{
-    background-color: #F5F5F5;
+    background-color: white;
 
 }
 
 .infoArticle-title{
-    background-color: #F5F5F5;
+    background-color: white;
+    margin-left: 20px;
+
    
 }
 
 .infoClass-txt{
-    background-color: #F5F5F5;
+    background-color: white;
+    margin-left: 20px;
 }
 
 .infoClass-Article{
     margin-top: -300px;
     width: 400px;
     height: 300px;
-    background-color: #F5F5F5;
+    background-color: white;
     
 }
 
@@ -198,7 +211,7 @@ p{
     
 }
 
-.class-articles>h1, p, h2{
+.class-articles>h1{
     background-color: white;
     margin-left: 20px;
     
@@ -206,13 +219,13 @@ p{
 }
 
 .class-articles>h2{
-    
+    margin-left: 20px;
     display: inline;
-
+    background-color: white;
 }
 
 .class-articles>p{
-
+    background-color: white;
     display: inline;
     margin-bottom: 20px;
     
@@ -231,9 +244,18 @@ p{
 .infoClass-tub{
     width: 400px;
     height: 300px;
-    background-color: #F5F5F5;
+    background-color: white;
     
 }
+
+.tumb{
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+}
+
 /*calculator body */
 
 .cal-body{
